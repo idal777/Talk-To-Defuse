@@ -1,0 +1,23 @@
+docs/index.md
+---
+title: Ana Sayfa
+nav_order: 1
+---
+
+# 💣 Talk to Defuse
+
+Açık kaynak, fiziksel modül tabanlı bir bomba imha oyunu.
+
+## 🎯 Amacımız
+Hackathonlar, atölyeler ve teknik eğitimlerde kullanılabilecek, modüler yapılı ve topluluk katkısıyla büyüyen bir sistem kurmak.
+
+## 🧩 Modüler Yapı
+- Her modül fiziksel bir bileşeni içerir (LED matrisi, morse kod, kilit vs.)
+- Her modül aynı zamanda bir bilgi veya beceri öğretir.
+- Kullanıcı sesli komutlarla ilerler.
+
+## 📚 Başlangıç
+- [Kurulum Rehberi](setup.md)
+- [Katkı Rehberi](contribute.md)
+- [Modüller](modules/led-matrix.md)
+
