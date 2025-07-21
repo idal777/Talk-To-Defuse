@@ -30,3 +30,9 @@ Sistem, birbirinden bağımsız çalışan fiziksel modüllerden oluşur. Bu mod
 
 Talk to Defuse, açık kaynak fiziksel oyun projeleri arasında bir referans noktası olmayı hedefler.
 
+## Modüller
+- [Ana Modül](moduller/ana-modul.md)
+- [LED Modülü](moduller/led-modulu.md)
+- [Mors Kod Modülü](moduller/mors-kod-modulu.md)
+- [Labirent Modülü](moduller/labirent-modulu.md)
+
