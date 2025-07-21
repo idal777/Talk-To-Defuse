@@ -36,5 +36,6 @@ Talk to Defuse, açık kaynak fiziksel oyun projeleri arasında bir referans nok
 - [Mors Kod Modülü](moduller/mors-kod-modulu.md)
 - [Labirent Modülü](moduller/labirent-modulu.md)
 - [Switch Modülü](moduller/switch-modulu.md)
+- [Simon Says (Renk Takibi) Modülü](moduller/simon-says.md)
 
 
