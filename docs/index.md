@@ -29,3 +29,7 @@ Sistem, birbirinden bağımsız çalışan fiziksel modüllerden oluşur. Bu mod
 ## Vizyon
 
 Talk to Defuse, açık kaynak fiziksel oyun projeleri arasında bir referans noktası olmayı hedefler.
+
+## Modüller
+- [LED Modülü](moduller/led-modulu.md)
+- [Mors Kod Modülü](moduller/mors-kod-modulu.md)
