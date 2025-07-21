@@ -26,10 +26,6 @@ Sistem, birbirinden bağımsız çalışan fiziksel modüllerden oluşur. Bu mod
 - **Belgeler:** Tüm teknik dökümanlar GitHub’dadır.
 - **Ar-Ge:** Breadboard, ardından PCB tasarımı yapılır.
 
-## Vizyon
-
-Talk to Defuse, açık kaynak fiziksel oyun projeleri arasında bir referans noktası olmayı hedefler.
-
 ## Modüller
 - [Ana Modül](moduller/ana-modul.md)
 - [LED Modülü](moduller/led-modulu.md)
@@ -39,6 +35,12 @@ Talk to Defuse, açık kaynak fiziksel oyun projeleri arasında bir referans nok
 - [Simon Says (Renk Takibi) Modülü](moduller/simon-says.md)
 - [El Becerisi Modülü](moduller/el-becerisi.md)
 - [Kablolar Modülü](moduller/kablolar.md)
+
+## Vizyon
+
+Talk to Defuse, açık kaynak fiziksel oyun projeleri arasında bir referans noktası olmayı hedefler.
+
+
 
 
 
