@@ -57,3 +57,10 @@ I2C kullanılır: Ana modül master’dır, diğerleri slave.
 3. Geri sayım başlar
 4. Modül kontrolleri
 5. Can/süreye göre kazanma veya kaybetme
+
+
+## Modüller
+
+- [LED Modülü](moduller/led-modulu.md)
+- [Mors Kod Modülü](moduller/mors-kod-modulu.md)
+
