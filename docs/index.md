@@ -1,6 +1,6 @@
 ---
 title: Talk to Defuse
-theme: jekyll-theme-midnight
+theme: jekyll-theme-merlot
 ---
 
 # Talk To Defuse
