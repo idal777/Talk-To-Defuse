@@ -1,3 +1,5 @@
+## GENEL BAKIŞ 
+
 ### 🔀 Switch Modülü
 
 Switch Modülü, üzerinde birden fazla anahtar (switch) bulunan bir kontrol panelidir. Oyuncunun görevi, bu anahtarları önceden belirlenmiş doğru kombinasyona getirmektir. Tüm anahtarlar doğru pozisyona ayarlandığında modül başarıyla devre dışı bırakılır ve oyun devam eder. 

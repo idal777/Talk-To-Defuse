@@ -1,46 +1,92 @@
-# Talk To Defuse
+# 💣 Talk To Defuse – Fiziksel Modüler Bomba İmha Oyunu
 
-## Nedir?
-
-Talk to Defuse, popüler *"Keep Talking and Nobody Explodes"* oyununa fiziksel gerçeklik kazandıran açık kaynaklı bir donanım projesidir.  
-Oyuncular bir "bomba" üzerinde çalışırken, diğer oyuncular da ona uzaktan yönergeler vererek bombayı etkisiz hale getirmeye çalışır. Amaç, hem eğitici hem de eğlenceli bir takım çalışması deneyimi sunmaktır.
-
-## Nasıl Çalışır?
-
-Sistem, birbirinden bağımsız çalışan fiziksel modüllerden oluşur. Bu modüller Arduino tabanlı mikrodenetleyicilerle kontrol edilir ve I2C protokolü üzerinden birbirleriyle haberleşir. Ana modül, oyunun yönetimini ve zamanlamasını sağlar. Her modül kendi içinde hata üretebilir ve oyuncular bu hataları çözmek zorundadır.
-
-Oyun süreci şu adımlarla ilerler:
-
-1. **Başlangıç:** Ana modül, oyun süresini ve modül sayısını belirler.  
-2. **Modüllerin Aktifleşmesi:** Her modül kendi özel göreviyle başlar (örneğin LED dizisi, şifre çözme, switch kombosu).  
-3. **İletişim:** Modüller, I2C protokolü ile ana modüle bilgi gönderir ve komut alır.  
-4. **Hata ve Zorluklar:** Modüller rastgele veya önceden belirlenmiş hatalar üretir; oyuncular bunları çözmek zorundadır.  
-5. **İşbirliği:** Oyuncular modüller üzerinde birlikte çalışarak hataları düzeltir ve bombayı etkisiz hale getirmeye çalışır.  
-6. **Başarı / Başarısızlık:** Süre dolduğunda bomba etkisizleşmişse oyuncular kazanır, aksi takdirde oyun sona erer.
-
-## Modül Sistemi
-
-Modüller şu temel özelliklere sahiptir:
-
-- **Tak-Çalıştır:** Modüller kolayca eklenip çıkarılabilir.  
-- **Genişletilebilir:** Herkes yeni modül tasarlayıp projeye katkı sunabilir.  
-- **Açık Standart:** Donanım ve yazılım arayüzleri açıkça belgelenmiştir.
-
-## Teknik Altyapı
-
-- **Donanım:** Arduino Nano/Uno, I2C haberleşme, LED, buton, ekran vb.  
-- **Yazılım:** Arduino IDE ve özel kütüphanelerle geliştirilmiş bağımsız firmware’ler.  
-- **Belgeler:** Tüm teknik dokümanlar GitHub’da mevcuttur.  
-- **Ar-Ge:** Modüller önce breadboard veya pertinaks üzerinde test edilir, ardından PCB tasarımı yapılır.
-
-## Vizyon
-
-Talk to Defuse, açık kaynaklı fiziksel oyun projeleri arasında bir referans noktası olmayı hedefler. Eğlenceli ve öğretici bir deneyim sunarak maker, öğrenci ve oyun sever topluluklarını bir araya getirmeyi amaçlar.
+> 🎮 *"Keep Talking and Nobody Explodes"* oyununa gerçek donanım geldi.  
+> 🛠️ Açık kaynaklı, geliştirilebilir, modüler bir bomba imha deneyimi.
 
 ---
 
-## Daha Fazlası
+## 🚀 Proje Nedir?
 
-- [Modüller](moduller.md)  
-- [Parçalar](parcalar.md)  
-- [3D Modeller](3dmodeller.md)
+**Talk to Defuse**, takım çalışması, iletişim ve mühendislik becerilerini oyunlaştırarak öğreten fiziksel bir bomba imha oyunudur.  
+Oyuncular bir bombayı etkisiz hale getirmeye çalışırken, diğer oyuncular uzaktan yönergeler verir. Proje tamamen açık kaynaklıdır ve Arduino temellidir.
+
+🎯 **Hedefimiz:**  
+Maker, öğrenci ve oyun tutkunlarını bir araya getirerek eğlenceli ve öğretici bir deneyim sunmak.
+
+---
+
+## 🌟 Projenin Vizyonu ve Hakkında
+
+Bu projenin temel vizyonu, fiziksel oyun sistemleri ve maker kültürü alanında kullanıcı dostu, erişilebilir ve açık kaynaklı bir çözüm sunmaktır.  
+Geliştiricilere, öğrencilere ve oyun severlere hem öğretici hem de yaratıcı bir deneyim sağlamak hedeflenmiştir.
+
+### 📌 Neden Bu Proje?
+
+- Gerçek dünyadaki teknik problemleri eğlenceli bir formatla çözümlemeyi öğretmek  
+- Açık kaynak topluluğuna katkı sağlamak  
+- Eğitim süreçlerinde kullanılabilecek örnek bir platform sunmak  
+- Donanım-yazılım entegrasyonunu eğlenceli hale getirmek
+
+### 🎯 Hedeflerimiz
+
+- Tak-çalıştır yapıda, kolay kurulum  
+- Her seviyeden kullanıcıya hitap eden dökümantasyon  
+- Sürekli güncellenen açık bir geliştirme modeli  
+- Topluluk geri bildirimlerine dayalı evrim
+
+---
+
+## ⚙️ Nasıl Çalışır?
+
+📦 Sistem, fiziksel olarak birbirine bağlanan **modüllerden** oluşur. Her biri Arduino mikrodenetleyici ile kontrol edilir ve I2C protokolü ile ana modüle bağlanır.
+
+🧩 Oyun Süreci:
+1. ⏱️ Süre ve modül sayısı ana modül tarafından başlatılır  
+2. 🔄 Modüller aktifleşir ve görevler başlar  
+3. 🔌 Oyuncular modülleri kontrol eder ve sorunları çözmeye çalışır  
+4. 💬 Yardımcı oyuncu, yönergeleri ileten kişidir  
+5. 🎉 Bomba zamanında etkisiz hale getirilirse takım kazanır
+
+---
+
+## 🧠 Modül Sistemi
+
+- 🔗 **Tak-Çalıştır** yapısı (her modül kolayca eklenip çıkarılır)
+- 🧱 **Bağımsız firmware** ve I2C haberleşme
+- 🛠️ **Topluluk katkısına açık** geliştirme modeli
+
+📚 Modül yazılım/donanım belgeleri:  
+👉 [Modüller](modules.md)
+
+---
+
+## 🔬 Teknik Detaylar
+
+| Alan         | İçerik                                            |
+|--------------|---------------------------------------------------|
+| 💡 Donanım   | Arduino Nano/Uno, I2C, LED, buzzer, ekran, buton  |
+| 💻 Yazılım   | Arduino IDE, özel modül kütüphaneleri             |
+| 🧾 Belgeler  | Tüm modüller için teknik dökümantasyon             |
+| 🧪 Prototipleme | Breadboard → PCB dönüşümü                     |
+
+🔗 Daha fazla teknik içerik için:  
+👉 [Parçalar Listesi](temelparcalar.md)  
+👉 [3D Modeller](3dmodeller.md)
+
+---
+
+## 🌍 Topluluk ve Gelişim
+
+Talk to Defuse, açık kaynak fiziksel oyunlar arasında ilham veren bir proje olmayı hedefler.  
+👥 Topluluk desteğiyle gelişen bu proje, farklı disiplinleri (elektronik, yazılım, oyun tasarımı) bir araya getirir.
+
+Katkıda bulunmak için → [Katkı Rehberi](contributing.md)
+
+---
+
+## 📦 Hızlı Başlangıç
+
+```bash
+git clone https://github.com/idal777/Talk-To-Defuse
+cd Talk-To-Defuse
+mkdocs serve

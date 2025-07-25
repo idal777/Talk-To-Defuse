@@ -1,1 +1,34 @@
-site_name: My Docs
+site_name: Talk to Defuse
+
+theme:
+  name: material
+
+nav:
+  - Anasayfa: index.md
+  - Başlarken: getting-started.md
+  - Kullanım: usage.md
+  - Modüller:
+      - Genel Bakış: moduls.md
+      - Switch Modülü: modules/switch.md
+      - Simon Says: modules/simon.md
+      - Labirent: modules/labyrinth.md
+      - El Becerisi Modülü: modules/hand-skill.md
+      - Mors Kodu Modülü: modules/morse-code.md
+      - Kablolar Modülü: modules/cables.md
+  - Temel Parçalar: temelparcalar.md
+  - 3D Modeller: 3dmodeller.md
+  - Satın Alma: buying.md
+  - Sorun Giderme: troubleshooting.md
+  - Katkıda Bulun: contributing.md
+  - SSS: faq.md
+  - Hakkında: about.md
+  - Lisans ve Satış: lisance-&-sales.md
+  - Değişiklikler: changelog.md
+  - Satış:
+      - Genel Bakış: sales/overview.md
+      - Dış Kasa Satışı: sales/outer-case.md
+      - Devre Kartları: sales/pcbs.md
+      - Tam Modüller: sales/full-modules.md
+      - Kit Halinde Satış: sales/kits.md
+      - Satın Alma Koşulları: buying-conditions.md
+  - İletişim: contact.md
