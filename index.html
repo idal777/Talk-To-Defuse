@@ -1,241 +1,1317 @@
-<!DOCTYPE html>
-<html lang="en" data-bs-theme="light">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="None">
-        
-        
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <title>My Docs</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/fontawesome.min.css" rel="stylesheet">
-        <link href="css/brands.min.css" rel="stylesheet">
-        <link href="css/solid.min.css" rel="stylesheet">
-        <link href="css/v4-font-face.min.css" rel="stylesheet">
-        <link href="css/base.css" rel="stylesheet">
-        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
-        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
-        <script>hljs.highlightAll();</script> 
-    </head>
 
-    <body class="homepage">
-        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
-            <div class="container">
-                <a class="navbar-brand" href=".">My Docs</a>
-                <!-- Expander button -->
-                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+        <link rel="next" href="getting-started/">
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>Talk to Defuse</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.342714a4.min.css">
+      
+      
 
-                <!-- Expanded navigation -->
-                <div id="navbar-collapse" class="navbar-collapse collapse">
-                        <!-- Main navigation -->
-                        <ul class="nav navbar-nav">
-                            <li class="nav-item">
-                                <a href="." class="nav-link active" aria-current="page">Talk To Defuse</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="3dmodeller/" class="nav-link">3D Modeller</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="moduller/" class="nav-link">Moduller</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="parcalar/" class="nav-link">Projede Kullanılan Parçalar</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="temelparcalar/" class="nav-link">Gerekli Parçalar</a>
-                            </li>
-                        </ul>
-
-                    <ul class="nav navbar-nav ms-md-auto">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
-                                <i class="fa fa-search"></i> Search
-                            </a>
-                        </li>
-                            <li class="nav-item">
-                                <a rel="prev" class="nav-link disabled">
-                                    <i class="fa fa-arrow-left"></i> Previous
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a rel="next" href="3dmodeller/" class="nav-link">
-                                    Next <i class="fa fa-arrow-right"></i>
-                                </a>
-                            </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
-            <span class="fa fa-angle-down"></span>
-        </button>
-    </div>
 
     
-    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
-        <ul class="nav flex-column">
-            
-            <li class="nav-item" data-bs-level="1"><a href="#talk-to-defuse" class="nav-link">Talk To Defuse</a>
-              <ul class="nav flex-column">
-            <li class="nav-item" data-bs-level="2"><a href="#nedir" class="nav-link">Nedir?</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#nasl-calsr" class="nav-link">Nasıl Çalışır?</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#modul-sistemi" class="nav-link">Modül Sistemi</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#teknik-altyap" class="nav-link">Teknik Altyapı</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#vizyon" class="nav-link">Vizyon</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#daha-fazlas" class="nav-link">Daha Fazlası</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-              </ul>
-            </li>
-        </ul>
-    </div>
-</div></div>
-                    <div class="col-md-9" role="main">
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
 
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#talk-to-defuse-fiziksel-moduler-bomba-imha-oyunu" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="Talk to Defuse" class="md-header__button md-logo" aria-label="Talk to Defuse" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Talk to Defuse
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Anasayfa
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Talk to Defuse" class="md-nav__button md-logo" aria-label="Talk to Defuse" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Talk to Defuse
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Anasayfa
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Anasayfa
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#proje-nedir" class="md-nav__link">
+    <span class="md-ellipsis">
+      🚀 Proje Nedir?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#projenin-vizyonu-ve-hakknda" class="md-nav__link">
+    <span class="md-ellipsis">
+      🌟 Projenin Vizyonu ve Hakkında
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🌟 Projenin Vizyonu ve Hakkında">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#neden-bu-proje" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Neden Bu Proje?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hedeflerimiz" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎯 Hedeflerimiz
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nasl-calsr" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚙️ Nasıl Çalışır?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modul-sistemi" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧠 Modül Sistemi
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#teknik-detaylar" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔬 Teknik Detaylar
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#topluluk-ve-gelisim" class="md-nav__link">
+    <span class="md-ellipsis">
+      🌍 Topluluk ve Gelişim
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hzl-baslangc" class="md-nav__link">
+    <span class="md-ellipsis">
+      📦 Hızlı Başlangıç
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="getting-started/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Başlarken
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="usage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Kullanım
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Modüller
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Modüller
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="moduls.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Genel Bakış
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="modules/switch/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Switch Modülü
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="modules/simon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Simon Says
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="modules/labyrinth/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Labirent
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="modules/hand-skill/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    El Becerisi Modülü
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="modules/morse-code/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Mors Kodu Modülü
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="modules/cables/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Kablolar Modülü
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="temelparcalar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Temel Parçalar
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="3dmodeller/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    3D Modeller
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="buying.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Satın Alma
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="troubleshooting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sorun Giderme
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="contributing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Katkıda Bulun
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SSS
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Hakkında
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="lisance-&-sales.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lisans ve Satış
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="changelog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Değişiklikler
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_14" >
+        
+          
+          <label class="md-nav__link" for="__nav_14" id="__nav_14_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Satış
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_14_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_14">
+            <span class="md-nav__icon md-icon"></span>
+            Satış
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="sales/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Genel Bakış
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="sales/outer-case/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Dış Kasa Satışı
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="sales/pcbs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Devre Kartları
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="sales/full-modules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tam Modüller
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="sales/kits/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Kit Halinde Satış
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="buying-conditions.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Satın Alma Koşulları
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="contact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    İletişim
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#proje-nedir" class="md-nav__link">
+    <span class="md-ellipsis">
+      🚀 Proje Nedir?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#projenin-vizyonu-ve-hakknda" class="md-nav__link">
+    <span class="md-ellipsis">
+      🌟 Projenin Vizyonu ve Hakkında
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🌟 Projenin Vizyonu ve Hakkında">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#neden-bu-proje" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Neden Bu Proje?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hedeflerimiz" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎯 Hedeflerimiz
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nasl-calsr" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚙️ Nasıl Çalışır?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modul-sistemi" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧠 Modül Sistemi
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#teknik-detaylar" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔬 Teknik Detaylar
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#topluluk-ve-gelisim" class="md-nav__link">
+    <span class="md-ellipsis">
+      🌍 Topluluk ve Gelişim
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hzl-baslangc" class="md-nav__link">
+    <span class="md-ellipsis">
+      📦 Hızlı Başlangıç
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</p>
+<h1 id="talk-to-defuse-fiziksel-moduler-bomba-imha-oyunu">💣 Talk To Defuse – Fiziksel Modüler Bomba İmha Oyunu</h1>
+<blockquote>
+<p>🎮 <em>"Keep Talking and Nobody Explodes"</em> oyununa gerçek donanım geldi.<br />
+🛠️ Açık kaynaklı, geliştirilebilir, modüler bir bomba imha deneyimi.</p>
+</blockquote>
+<hr />
+<h2 id="proje-nedir">🚀 Proje Nedir?</h2>
+<p><strong>Talk to Defuse</strong>, takım çalışması, iletişim ve mühendislik becerilerini oyunlaştırarak öğreten fiziksel bir bomba imha oyunudur.<br />
+Oyuncular bir bombayı etkisiz hale getirmeye çalışırken, diğer oyuncular uzaktan yönergeler verir. Proje tamamen açık kaynaklıdır ve Arduino temellidir.</p>
+<p>🎯 <strong>Hedefimiz:</strong><br />
+Maker, öğrenci ve oyun tutkunlarını bir araya getirerek eğlenceli ve öğretici bir deneyim sunmak.</p>
+<hr />
+<h2 id="projenin-vizyonu-ve-hakknda">🌟 Projenin Vizyonu ve Hakkında</h2>
+<p>Bu projenin temel vizyonu, fiziksel oyun sistemleri ve maker kültürü alanında kullanıcı dostu, erişilebilir ve açık kaynaklı bir çözüm sunmaktır.<br />
+Geliştiricilere, öğrencilere ve oyun severlere hem öğretici hem de yaratıcı bir deneyim sağlamak hedeflenmiştir.</p>
+<h3 id="neden-bu-proje">📌 Neden Bu Proje?</h3>
+<ul>
+<li>Gerçek dünyadaki teknik problemleri eğlenceli bir formatla çözümlemeyi öğretmek  </li>
+<li>Açık kaynak topluluğuna katkı sağlamak  </li>
+<li>Eğitim süreçlerinde kullanılabilecek örnek bir platform sunmak  </li>
+<li>Donanım-yazılım entegrasyonunu eğlenceli hale getirmek</li>
+</ul>
+<h3 id="hedeflerimiz">🎯 Hedeflerimiz</h3>
+<ul>
+<li>Tak-çalıştır yapıda, kolay kurulum  </li>
+<li>Her seviyeden kullanıcıya hitap eden dökümantasyon  </li>
+<li>Sürekli güncellenen açık bir geliştirme modeli  </li>
+<li>Topluluk geri bildirimlerine dayalı evrim</li>
+</ul>
+<hr />
+<h2 id="nasl-calsr">⚙️ Nasıl Çalışır?</h2>
+<p>📦 Sistem, fiziksel olarak birbirine bağlanan <strong>modüllerden</strong> oluşur. Her biri Arduino mikrodenetleyici ile kontrol edilir ve I2C protokolü ile ana modüle bağlanır.</p>
+<p>🧩 Oyun Süreci:
+1. ⏱️ Süre ve modül sayısı ana modül tarafından başlatılır<br />
+2. 🔄 Modüller aktifleşir ve görevler başlar<br />
+3. 🔌 Oyuncular modülleri kontrol eder ve sorunları çözmeye çalışır<br />
+4. 💬 Yardımcı oyuncu, yönergeleri ileten kişidir<br />
+5. 🎉 Bomba zamanında etkisiz hale getirilirse takım kazanır</p>
+<hr />
+<h2 id="modul-sistemi">🧠 Modül Sistemi</h2>
+<ul>
+<li>🔗 <strong>Tak-Çalıştır</strong> yapısı (her modül kolayca eklenip çıkarılır)</li>
+<li>🧱 <strong>Bağımsız firmware</strong> ve I2C haberleşme</li>
+<li>🛠️ <strong>Topluluk katkısına açık</strong> geliştirme modeli</li>
+</ul>
+<p>📚 Modül yazılım/donanım belgeleri:<br />
+👉 <a href="modules.md">Modüller</a></p>
+<hr />
+<h2 id="teknik-detaylar">🔬 Teknik Detaylar</h2>
+<table>
+<thead>
+<tr>
+<th>Alan</th>
+<th>İçerik</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>💡 Donanım</td>
+<td>Arduino Nano/Uno, I2C, LED, buzzer, ekran, buton</td>
+</tr>
+<tr>
+<td>💻 Yazılım</td>
+<td>Arduino IDE, özel modül kütüphaneleri</td>
+</tr>
+<tr>
+<td>🧾 Belgeler</td>
+<td>Tüm modüller için teknik dökümantasyon</td>
+</tr>
+<tr>
+<td>🧪 Prototipleme</td>
+<td>Breadboard → PCB dönüşümü</td>
+</tr>
+</tbody>
+</table>
+<p>🔗 Daha fazla teknik içerik için:<br />
+👉 <a href="temelparcalar/">Parçalar Listesi</a><br />
+👉 <a href="3dmodeller/">3D Modeller</a></p>
+<hr />
+<h2 id="topluluk-ve-gelisim">🌍 Topluluk ve Gelişim</h2>
+<p>Talk to Defuse, açık kaynak fiziksel oyunlar arasında ilham veren bir proje olmayı hedefler.<br />
+👥 Topluluk desteğiyle gelişen bu proje, farklı disiplinleri (elektronik, yazılım, oyun tasarımı) bir araya getirir.</p>
+<p>Katkıda bulunmak için → <a href="contributing/">Katkı Rehberi</a></p>
+<hr />
+<h2 id="hzl-baslangc">📦 Hızlı Başlangıç</h2>
+<p>```bash
+git clone https://github.com/idal777/Talk-To-Defuse
+cd Talk-To-Defuse
+mkdocs serve
+=======</p>
+<hr />
+<p>title: Talk to Defuse
+theme: jekyll-theme-merlot</p>
+<hr />
 <h1 id="talk-to-defuse">Talk To Defuse</h1>
 <h2 id="nedir">Nedir?</h2>
-<p>Talk to Defuse, popüler <em>"Keep Talking and Nobody Explodes"</em> oyununa fiziksel gerçeklik kazandıran açık kaynaklı bir donanım projesidir.<br />
-Oyuncular bir "bomba" üzerinde çalışırken, diğer oyuncular da ona uzaktan yönergeler vererek bombayı etkisiz hale getirmeye çalışır. Amaç, hem eğitici hem de eğlenceli bir takım çalışması deneyimi sunmaktır.</p>
-<h2 id="nasl-calsr">Nasıl Çalışır?</h2>
-<p>Sistem, birbirinden bağımsız çalışan fiziksel modüllerden oluşur. Bu modüller Arduino tabanlı mikrodenetleyicilerle kontrol edilir ve I2C protokolü üzerinden birbirleriyle haberleşir. Ana modül, oyunun yönetimini ve zamanlamasını sağlar. Her modül kendi içinde hata üretebilir ve oyuncular bu hataları çözmek zorundadır.</p>
-<p>Oyun süreci şu adımlarla ilerler:</p>
-<ol>
-<li><strong>Başlangıç:</strong> Ana modül, oyun süresini ve modül sayısını belirler.  </li>
-<li><strong>Modüllerin Aktifleşmesi:</strong> Her modül kendi özel göreviyle başlar (örneğin LED dizisi, şifre çözme, switch kombosu).  </li>
-<li><strong>İletişim:</strong> Modüller, I2C protokolü ile ana modüle bilgi gönderir ve komut alır.  </li>
-<li><strong>Hata ve Zorluklar:</strong> Modüller rastgele veya önceden belirlenmiş hatalar üretir; oyuncular bunları çözmek zorundadır.  </li>
-<li><strong>İşbirliği:</strong> Oyuncular modüller üzerinde birlikte çalışarak hataları düzeltir ve bombayı etkisiz hale getirmeye çalışır.  </li>
-<li><strong>Başarı / Başarısızlık:</strong> Süre dolduğunda bomba etkisizleşmişse oyuncular kazanır, aksi takdirde oyun sona erer.</li>
-</ol>
-<h2 id="modul-sistemi">Modül Sistemi</h2>
-<p>Modüller şu temel özelliklere sahiptir:</p>
+<p>Talk to Defuse, popüler "Keep Talking and Nobody Explodes" oyununa fiziksel bir gerçeklik kazandıran açık kaynaklı bir donanım projesidir. Oyuncular bir "bomba" üzerinde çalışırken, diğer oyuncular da ona uzaktan yönergeler vererek bombayı etkisiz hale getirmeye çalışır. Amaç, hem eğitici hem de eğlenceli bir takım çalışması deneyimi sunmaktır.</p>
+<h2 id="nasl-calsr_1">Nasıl Çalışır?</h2>
+<p>Sistem, birbirinden bağımsız çalışan fiziksel modüllerden oluşur. Bu modüller Arduino tabanlı mikrodenetleyicilerle kontrol edilir ve birbirleriyle I2C protokolü üzerinden haberleşir. Ana modül, oyunun yönetimini ve zamanlamasını sağlar. Her modül kendi içinde hata üretebilir ve oyuncular bu hataları çözmek zorundadır.</p>
+<h2 id="modul-sistemi_1">Modül Sistemi</h2>
 <ul>
-<li><strong>Tak-Çalıştır:</strong> Modüller kolayca eklenip çıkarılabilir.  </li>
-<li><strong>Genişletilebilir:</strong> Herkes yeni modül tasarlayıp projeye katkı sunabilir.  </li>
-<li><strong>Açık Standart:</strong> Donanım ve yazılım arayüzleri açıkça belgelenmiştir.</li>
+<li><strong>Tak-Çalıştır:</strong> Modüller kolayca eklenip çıkarılabilir.</li>
+<li><strong>Genişletilebilir:</strong> Herkes yeni bir modül tasarlayıp projeye katkı sunabilir.</li>
+<li><strong>Açık Standart:</strong> Donanım ve yazılım arayüzleri açık bir şekilde belgelenmiştir.</li>
 </ul>
 <h2 id="teknik-altyap">Teknik Altyapı</h2>
 <ul>
-<li><strong>Donanım:</strong> Arduino Nano/Uno, I2C haberleşme, LED, buton, ekran vb.  </li>
-<li><strong>Yazılım:</strong> Arduino IDE ve özel kütüphanelerle geliştirilmiş bağımsız firmware’ler.  </li>
-<li><strong>Belgeler:</strong> Tüm teknik dokümanlar GitHub’da mevcuttur.  </li>
-<li><strong>Ar-Ge:</strong> Modüller önce breadboard veya pertinaks üzerinde test edilir, ardından PCB tasarımı yapılır.</li>
+<li><strong>Donanım:</strong> Arduino Nano/Uno, I2C haberleşme, LED, buton, ekran vb.</li>
+<li><strong>Yazılım:</strong> Arduino IDE + Kütüphaneler</li>
+<li><strong>Belgeler:</strong> Tüm teknik dökümanlar GitHub’dadır.</li>
+<li><strong>Ar-Ge:</strong> Breadboard, ardından PCB tasarımı yapılır.</li>
+</ul>
+<h2 id="moduller">Modüller</h2>
+<ul>
+<li><a href="moduller/ana-modul/">Ana Modül</a></li>
+<li><a href="moduller/led-modulu/">LED Modülü</a></li>
+<li><a href="moduller/mors-kod-modulu.md">Mors Kod Modülü</a></li>
+<li><a href="moduller/labirent-modulu.md">Labirent Modülü</a></li>
+<li><a href="moduller/switch-modulu/">Switch Modülü</a></li>
+<li><a href="moduller/simon-says/">Simon Says (Renk Takibi) Modülü</a></li>
+<li><a href="moduller/el-becerisi/">El Becerisi Modülü</a></li>
+<li><a href="moduller/kablolar/">Kablolar Modülü</a></li>
 </ul>
 <h2 id="vizyon">Vizyon</h2>
-<p>Talk to Defuse, açık kaynaklı fiziksel oyun projeleri arasında bir referans noktası olmayı hedefler. Eğlenceli ve öğretici bir deneyim sunarak maker, öğrenci ve oyun sever topluluklarını bir araya getirmeyi amaçlar.</p>
-<hr />
-<h2 id="daha-fazlas">Daha Fazlası</h2>
-<ul>
-<li><a href="moduller/">Modüller</a>  </li>
-<li><a href="parcalar/">Parçalar</a>  </li>
-<li><a href="3dmodeller/">3D Modeller</a></li>
-</ul></div>
-            </div>
-        </div>
+<p>Talk to Defuse, açık kaynak fiziksel oyun projeleri arasında bir referans noktası olmayı hedefler.</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>a0762bd90802f00179e76a5d4a5eeba21d47a2eb</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
 
-        <footer class="col-md-12">
-            <hr>
-            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
-        </footer>
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <script>
-            var base_url = ".",
-                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
-        </script>
-        <script src="js/base.js"></script>
-        <script src="search/main.js"></script>
 
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="searchModalLabel">Search</h4>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
             </div>
-            <div class="modal-body">
-                <p>From here you can search these documents. Enter your search terms below.</p>
-                <form>
-                    <div class="form-group">
-                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
-                    </div>
-                </form>
-                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
-            </div>
-            <div class="modal-footer">
-            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
-    </div>
-</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th style="width: 20%;">Keys</th>
-                    <th>Action</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td class="help shortcut"><kbd>?</kbd></td>
-                    <td>Open this help</td>
-                  </tr>
-                  <tr>
-                    <td class="next shortcut"><kbd>n</kbd></td>
-                    <td>Next page</td>
-                  </tr>
-                  <tr>
-                    <td class="prev shortcut"><kbd>p</kbd></td>
-                    <td>Previous page</td>
-                  </tr>
-                  <tr>
-                    <td class="search shortcut"><kbd>s</kbd></td>
-                    <td>Search</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="modal-footer">
-            </div>
-        </div>
-    </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
 </div>
-
-    </body>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+    
+  </body>
 </html>
-
-<!--
-MkDocs version : 1.6.1
-Build Date UTC : 2025-07-24 10:46:28.082688+00:00
--->
