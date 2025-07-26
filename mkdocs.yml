@@ -4,31 +4,30 @@ theme:
   name: material
 
 nav:
-  - Anasayfa: index.md
-  - Başlarken: getting-started.md
-  - Kullanım: usage.md
-  - Modüller:
-      - Genel Bakış: moduls.md
-      - Switch Modülü: modules/switch.md
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Usage: usage.md
+  - Modules:
+      - Overview: modules/modules-list.md
+      - Switch Module: modules/switch.md
       - Simon Says: modules/simon.md
-      - Labirent: modules/labyrinth.md
-      - El Becerisi Modülü: modules/hand-skill.md
-      - Mors Kodu Modülü: modules/morse-code.md
-      - Kablolar Modülü: modules/cables.md
-  - Temel Parçalar: temelparcalar.md
-  - 3D Modeller: 3dmodeller.md
-  - Satın Alma: buying.md
-  - Sorun Giderme: troubleshooting.md
-  - Katkıda Bulun: contributing.md
-  - SSS: faq.md
-  - Hakkında: about.md
-  - Lisans ve Satış: lisance-&-sales.md
-  - Değişiklikler: changelog.md
-  - Satış:
-      - Genel Bakış: sales/overview.md
-      - Dış Kasa Satışı: sales/outer-case.md
-      - Devre Kartları: sales/pcbs.md
-      - Tam Modüller: sales/full-modules.md
-      - Kit Halinde Satış: sales/kits.md
-      - Satın Alma Koşulları: buying-conditions.md
-  - İletişim: contact.md
+      - Labyrinth: modules/labyrinth.md
+      - Hand Skill Module: modules/hand-skill.md
+      - Morse Code Module: modules/morse-code.md
+      - Cables Module: modules/cables.md
+  - Essential Components: essentialcomponents.md
+  - 3D Models: 3dmodels.md
+  - Troubleshooting: troubleshooting.md
+  - Contributing: contributing.md
+  - FAQ: faq.md
+  - About: about.md
+  - License & Sales: lisance-&-sales.md
+  - Changelog: changelog.md
+  - Sales:
+      - Overview: sales/overview.md
+      - Outer Case Sales: sales/outer-case.md
+      - Circuit Boards: sales/pcbs.md
+      - Full Modules: sales/full-modules.md
+      - Kit Sales: sales/kits.md
+      - Purchase Terms: sales/buying-conditions.md
+  - Support: support.md
