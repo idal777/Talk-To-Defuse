@@ -90,3 +90,10 @@ Katkıda bulunmak için → [Katkı Rehberi](contributing.md)
 git clone https://github.com/idal777/Talk-To-Defuse
 cd Talk-To-Defuse
 mkdocs serve
+
+
+
+
+
+
+
