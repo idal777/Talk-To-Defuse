@@ -31,3 +31,5 @@ nav:
       - Kit Sales: sales/kits.md
       - Purchase Terms: sales/buying-conditions.md
   - Support: support.md
+docs_dir: Talk-To-Defuse/docs
+
