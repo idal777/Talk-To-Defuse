@@ -2,7 +2,7 @@
 
 This page contains sales information about physical module kits for the Talk to Defuse game.
 
-## 🎁 Available Kits
+##  Available Kits
 
 | Kit Name          | Content Summary                                                                                     | Price (TRY) | Stock Status |
 |-------------------|---------------------------------------------------------------------------------------------------|-------------|--------------|
@@ -11,7 +11,7 @@ This page contains sales information about physical module kits for the Talk to 
 | Educational Kit   | Complete set of all modules (10+), tutorial booklets (TR & EN), posters, and quick-start guides    | 1,999 TRY   | 🔄 Low Stock |
 | Hackathon Set     | 10+ modules, 3 kits for teams, carrying cases                                                     | 4,999 TRY   | ❌ Sold Out  |
 
-## 📦 Kit Content Details
+##  Kit Content Details
 
 ### Starter Kit Includes:
 - **Simon Says Module:** Color sequence memory game that tests your reflexes and memory.
@@ -41,23 +41,23 @@ This page contains sales information about physical module kits for the Talk to 
 - Carrying case with compartments.
 - Perfect for competitive and collaborative environments.
 
-## 📦 Shipping Information
+##  Shipping Information
 
 - Flat shipping fee of **59 TRY** within Turkey.
 - Free shipping for orders over 1,000 TRY.
 - Delivery usually takes 2-4 business days.
 
-## 💳 Payment Methods
+##  Payment Methods
 
 - Credit/Debit Card
 - Bank Transfer (EFT)
 - Cash on Delivery (only in Istanbul)
 
-## 🔧 Additional Module Orders
+##  Additional Module Orders
 
 Modules can also be purchased individually. Please check our [Module Catalog](full-modules.md) for more information.
 
-## 📬 Orders & Contact
+##  Orders & Contact
 
 You can place orders via:
 
@@ -65,7 +65,7 @@ You can place orders via:
 - Instagram: [@talktodefuse](https://instagram.com/talktodefuse)
 - GitHub Discussions: [Ask the Community](https://github.com/username/talk-to-defuse/discussions)
 
-## ℹ️ Notes
+##  Notes
 
 - Prices include 20% VAT.
 - All modules come with a warranty.

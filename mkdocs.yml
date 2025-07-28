@@ -9,12 +9,10 @@ nav:
   - Usage: usage.md
   - Modules:
       - Overview: modules/modules-list.md
+      - Main module: modules/main-module.md
       - Switch Module: modules/switch.md
       - Simon Says: modules/simon.md
-      - Labyrinth: modules/labyrinth.md
-      - Hand Skill Module: modules/hand-skill.md
       - Morse Code Module: modules/morse-code.md
-      - Cables Module: modules/cables.md
   - Essential Components: essentialcomponents.md
   - 3D Models: 3dmodels.md
   - Troubleshooting: troubleshooting.md
@@ -27,9 +25,8 @@ nav:
       - Overview: sales/overview.md
       - Outer Case Sales: sales/outer-case.md
       - Circuit Boards: sales/pcbs.md
-      - Full Modules: sales/full-modules.md
       - Kit Sales: sales/kits.md
       - Purchase Terms: sales/buying-conditions.md
   - Support: support.md
-docs_dir: Talk-To-Defuse/docs
+docs_dir: docs
 

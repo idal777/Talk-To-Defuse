@@ -13,7 +13,7 @@ You can download the files by clicking the links.
 
 ---
 
-## 🖨️ Printing Instructions
+##  Printing Instructions
 
 - **Recommended Material:** PLA or ABS  
 - **Layer Height:** 0.1 - 0.2 mm for better surface finish  
@@ -22,7 +22,7 @@ You can download the files by clicking the links.
 
 ---
 
-## 🧩 Assembly Notes
+##  Assembly Notes
 
 - Ensure all modules fit snugly in the main case.  
 - Use screws or snap-fit designs as per the module specifications.  
@@ -30,14 +30,14 @@ You can download the files by clicking the links.
 
 ---
 
-## 📁 File Formats
+##  File Formats
 
 - Files are primarily provided in `.stl` format suitable for most 3D printers.  
 - Other formats like `.obj` or `.step` may be available upon request or in future releases.  
 
 ---
 
-## 📜 Licensing and Usage
+##  Licensing and Usage
 
 - These 3D models are released under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)**.  
 - You may use and modify the files for personal or educational use. Commercial use requires prior permission.  

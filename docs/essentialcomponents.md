@@ -1,4 +1,4 @@
-# 🧩 Required Parts
+#  Required Parts
 
 Below are the essential components used in this project:
 
@@ -11,11 +11,11 @@ Below are the essential components used in this project:
 - 🔹 **3D Printed Parts** (enclosures and mechanical components for modules)  
 - 🔹 **Power Supply** (USB cable or adapter)  
 
-> ⚠️ *Note:* Detailed technical specs and purchase links will be shared here soon.
+>  *Note:* Detailed technical specs and purchase links will be shared here soon.
 
 ---
 
-# 📋 Parts Used in the Project
+#  Parts Used in the Project
 
 | Part Name        | Description                   | Quantity | Notes                    |
 |------------------|------------------------------|----------|--------------------------|
@@ -33,9 +33,9 @@ Below are the essential components used in this project:
 
 ---
 
-> 🚀 *Tip:* Always verify component compatibility before purchasing to ensure smooth assembly and operation.
+>  *Tip:* Always verify component compatibility before purchasing to ensure smooth assembly and operation.
 
 ---
 
-Happy building! 🔧🎉
+Happy building! 
 

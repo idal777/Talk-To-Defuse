@@ -2,7 +2,7 @@
 
 In this section, you can find the sales details for the Printed Circuit Boards (PCBs) offered as part of the Talk to Defuse project.
 
-## 📦 Package Contents
+##  Package Contents
 
 The following PCBs are manufactured and shipped upon order:
 
@@ -14,7 +14,7 @@ The following PCBs are manufactured and shipped upon order:
 | Switch Module        | Used for the key puzzle mini-game                        | 50mm x 40mm   | v1.0    | ❌ Sold Out   |
 | Labyrinth Module     | PCB with tilt sensor for labyrinth solving               | 65mm x 45mm   | v1.0    | ✔ In Stock    |
 
-## 💰 Pricing
+##  Pricing
 
 All PCBs are carefully manufactured and quality-checked. Unit prices are listed below:
 
@@ -24,15 +24,15 @@ All PCBs are carefully manufactured and quality-checked. Unit prices are listed 
 - **Switch Module**: 90 ₺  
 - **Labyrinth Module**: 115 ₺  
 
-> 📦 Discounts may apply for bulk orders. Please contact us via the [Contact](../support.md) page.
+>  Discounts may apply for bulk orders. Please contact us via the [Contact](../support.md) page.
 
-## 🚚 Delivery & Shipping
+##  Delivery & Shipping
 
 - PCBs are shipped within 3 business days after the order is confirmed.  
 - Domestic shipping within Turkey is free of charge.  
 - For international shipping, please review the [Buying Conditions](buying-conditions.md) page.
 
-## 📄 Technical Documentation
+##  Technical Documentation
 
 Detailed circuit diagrams and Gerber files for each PCB can be found at the links below:
 

@@ -1,11 +1,11 @@
-# Contribution Guide 🤝
+# Contribution Guide 
 
-Hello! 👋  
+Hello!   
 Thank you for your interest in contributing to this open source project. We welcome contributions at all levels — whether code, documentation, or feedback.
 
 ---
 
-## 🚀 How Can I Contribute?
+##  How Can I Contribute?
 
 ### 1. Report Bugs  
 Found a bug? Please open a new Issue and let us know:
@@ -14,7 +14,7 @@ Found a bug? Please open a new Issue and let us know:
 - Include screenshots if possible  
 - Share system details (OS, hardware, etc.)
 
-👉 [Create an Issue](https://github.com/ekipadi/bomb-defuse-game/issues)
+[Create an Issue](https://github.com/ekipadi/bomb-defuse-game/issues)
 
 ---
 
@@ -53,7 +53,7 @@ Documentation is as valuable as code. You can help by:
 
 ---
 
-### 🧪 Module Development Rules
+###  Module Development Rules
 
 - Each module should work independently  
 - Input/output pins must be specified inside the `README.md`  
@@ -62,7 +62,7 @@ Documentation is as valuable as code. You can help by:
 
 ---
 
-## 📦 Pull Request Guidelines
+##  Pull Request Guidelines
 
 - Please write a brief description for each PR  
 - For major changes, opening an Issue beforehand is recommended  
@@ -70,14 +70,14 @@ Documentation is as valuable as code. You can help by:
 
 ---
 
-## 💬 Communication and Support
+##  Communication and Support
 
 You can always reach out to us.  
-📧 Email: support@bombdefusegame.org  
-💬 Or contact us via GitHub Discussions or Issues.
+ Email: support@bombdefusegame.org  
+ Or contact us via GitHub Discussions or Issues.
 
 ---
 
 Thank you!  
-🎉 Your contributions help grow and improve the project!
+ Your contributions help grow and improve the project!
 

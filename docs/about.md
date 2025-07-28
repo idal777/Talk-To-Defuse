@@ -1,6 +1,6 @@
 # About
 
-## 🎯 Project Purpose
+##  Project Purpose
 
 This project is a **modular bomb defusal game** designed to help users develop electronics, programming, and problem-solving skills by interacting with real-world hardware components.
 
@@ -8,14 +8,14 @@ Designed for hackathons, educational workshops, and engineering-focused events, 
 
 ---
 
-## 🌟 Vision and Overview
+##  Vision and Overview
 
 The core vision of this project is to provide a user-friendly, accessible, and open-source solution in the realm of physical game systems and maker culture.  
 It aims to offer an educational and creative experience to developers, students, and gamers alike.
 
 ---
 
-## 🔌 Hardware Integration
+##  Hardware Integration
 
 The project is designed to work with the following hardware components:
 
@@ -31,7 +31,7 @@ Each module can be developed independently and integrated into the game box, res
 
 ---
 
-## 🧠 Software Features
+##  Software Features
 
 - Control software written in Python or C  
 - Serial communication (via USB/Serial with Arduino)  
@@ -41,7 +41,7 @@ Each module can be developed independently and integrated into the game box, res
 
 ---
 
-## 📦 Why Open Source?
+##  Why Open Source?
 
 This project is open source because:
 
@@ -51,7 +51,7 @@ This project is open source because:
 
 ---
 
-## 👨‍💻 How to Contribute
+##  How to Contribute
 
 If you want to contribute to this project:
 
@@ -59,16 +59,16 @@ If you want to contribute to this project:
 - Share your ideas for new modules with us  
 - Help with documentation and bug fixes  
 
-👉 GitHub: [https://github.com/idal777/Talk-To-Defuse](https://github.com/idal777/Talk-To-Defuse)
+ GitHub: [https://github.com/idal777/Talk-To-Defuse](https://github.com/idal777/Talk-To-Defuse)
 
 ---
 
-## 📧 Contact
+##  Contact
 
 For any questions, suggestions, or collaboration:
 
-📩 Email: support@bombdefusegame.org  
-🌐 Website: [bombdefusegame.org](https://bombdefusegame.org)  
+ Email: support@bombdefusegame.org  
+ Website: [bombdefusegame.org](https://bombdefusegame.org)  
 
 
 ---

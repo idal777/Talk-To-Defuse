@@ -24,11 +24,11 @@ This project is an interactive bomb defusal game based on Arduino with physical 
 
 ---
 
-💡 **Tip:**  
+ **Tip:**  
 Always double-check wiring before powering the system to avoid hardware damage. Test each module individually if possible to ensure proper operation before starting the game.
 
 ---
 
-If everything is set up correctly, you are ready to start defusing the bomb! Good luck! 🎉
+If everything is set up correctly, you are ready to start defusing the bomb! Good luck! 
 
 
